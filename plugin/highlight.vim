@@ -1,24 +1,25 @@
 " File: highlight.vim
 " Author: Amit Sethi <amitrajsethi@yahoo.com>
 " Version: 1.6
-" Last Modified: Tue Apr 12 15:18:16 IST 2011
+" Last Modified: 05/01/15 14:34:47 
+" Modifiler: Yanfei Guo <yanf.guo@gmail.com>
 " Description: Highlight lines or patterns of interest in different colors
 " Uasge:
 "   Line mode
-"     <C-h><C-h>   Highlight current line 
-"     <C-h><C-a>   Advance color for next line highlight
-"     <C-h><C-r>   Clear last line highlight
+"     <C-s><C-h>   Highlight current line 
+"     <C-s><C-a>   Advance color for next line highlight
+"     <C-s><C-r>   Clear last line highlight
 "
 "   Pattern mode
-"     <C-h><C-w>   Highlight word under cursor (whole word match)
-"     <C-h><C-l>   Highlight all lines having word under cursor (whole word match)
-"     <C-h><C-f>   Highlight word under cursor (partial word match)
-"     <C-h><C-k>   Highlight all lines having word under cursor (partial word match)
-"     <C-h><C-s>   Highlight last search pattern
-"     <C-h><C-j>   Highlight all lines having last search pattern
-"     <C-h><C-d>   Clear last pattern highlight
+"     <C-s><C-w>   Highlight word under cursor (whole word match)
+"     <C-s><C-l>   Highlight all lines having word under cursor (whole word match)
+"     <C-s><C-f>   Highlight word under cursor (partial word match)
+"     <C-s><C-k>   Highlight all lines having word under cursor (partial word match)
+"     <C-s><C-s>   Highlight last search pattern
+"     <C-s><C-j>   Highlight all lines having last search pattern
+"     <C-s><C-d>   Clear last pattern highlight
 "
-"     <C-h><C-n>   Clear all highlights
+"     <C-s><C-n>   Clear all highlights
 "
 "   All above commands work in both normal & insert modes.
 "   <C-h><C-h> also works in visual mode. (Select desired lines & hit <C-h><C-h>)

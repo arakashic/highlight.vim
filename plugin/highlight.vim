@@ -1,7 +1,8 @@
 " File: highlight.vim
 " Author: Amit Sethi <amitrajsethi@yahoo.com>
 " Version: 1.6
-" Last Modified: Tue Apr 12 15:18:16 IST 2011
+" Last Modified: 05/01/15 14:34:47 
+" Modifiler: Yanfei Guo <yanf.guo@gmail.com>
 " Description: Highlight lines or patterns of interest in different colors
 " Uasge:
 "   Line mode
